@@ -39,9 +39,19 @@
     }
 }
 
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: white;
+}
+.navbar-default .navbar-toggle{
+    border: 1.5px solid white;
+    &:hover, &:focus{
+        background-color: #11d7ff;
+    }
+}
+
 .navbar-brand{
     font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .home-callout{
