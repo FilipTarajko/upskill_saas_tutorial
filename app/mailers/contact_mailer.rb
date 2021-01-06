@@ -5,7 +5,7 @@ class ContactMailer < ActionMailer::Base
         @name = name
         @email = email
         @body = body
-        mail(from: 'filiptarajko@gmail.com', subject: 'Message from Heroku Website')
+        mail(from: 'filiptarajko@example.com', subject: 'Message from Heroku Website')
     end
 end
 
